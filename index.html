@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="styles.css">
     <title>Curiosidades sobre Gatos</title>
 </head>
+
 <body>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#datos-interesantes">Datos interesantes</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#curiosidades">Top 3 curiosidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
     <header>
         <h1>Curiosidades sobre Gatos</h1>
         <p>Descubre algunos datos interesantes sobre los felinos más adorables del mundo.</p>
@@ -18,7 +28,7 @@
             <h2>¿Qué son los gatos?</h2>
             <p>Los gatos son animales de la familia de los felinos. Estos animales son muy comunes en el mundo, y son uno de los animales mas populares de todo el mundo.</p>
         </section>
-        <section>
+        <section id="datos-interesantes">
             <h2>Datos interesantes</h2>
             <h3>¿Cuántos gatos hay en el mundo?</h3>
             <p>Según la Asociación Americana de Gatos, hay más de 200 millones de gatos en el mundo. Los suficientes para cubrir el planeta entero.</p>
@@ -31,19 +41,20 @@
         </section>
 
         
-        <aside>
+        <aside id="galeria" >
             <h2>Galería de Imágenes</h2>
-            <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
-                <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 1" style="width: 150px; border-radius: 8px;">
-                <img src="https://images.pexels.com/photos/1276553/pexels-photo-1276553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 2" style="width: 150px; border-radius: 8px;">
-                <img src="https://images.pexels.com/photos/979247/pexels-photo-979247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 3" style="width: 150px; border-radius: 8px;">
-                <img src="https://images.pexels.com/photos/1049764/pexels-photo-1049764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 4" style="width: 150px; border-radius: 8px;">
+            <div class="gallery">
+                <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 1">
+                <img src="https://images.pexels.com/photos/1276553/pexels-photo-1276553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 2">
+                <img src="https://images.pexels.com/photos/979247/pexels-photo-979247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 3">
+                <img src="https://images.pexels.com/photos/1049764/pexels-photo-1049764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato 4">
             </div>
             <p style="text-align: center;">¿No son irresistibles?</p>
         </aside>
         
+        
 
-        <section>
+        <section id="curiosidades" >
             <h2>Top 3 curiosidades</h2>
             <ol>
                 <li>Los gatos tienen un órgano especial que les permite saborear olores.</li>
@@ -53,6 +64,25 @@
         </section>
 
         <section>
+            <h2>Historia de los Gatos</h2>
+            <div class="history-container">
+                <div class="history-item">
+                    <h3>Los primeros gatos domesticados</h3>
+                    <p>Se cree que los gatos comenzaron a ser domesticados hace más de 9,000 años en el Cercano Oriente. A medida que las primeras civilizaciones agrícolas se desarrollaban, los gatos encontraron un nicho en las aldeas, ayudando a controlar las plagas de roedores.</p>
+                </div>
+                <div class="history-item">
+                    <h3>Los gatos en el antiguo Egipto</h3>
+                    <p>En el antiguo Egipto, los gatos fueron considerados animales sagrados. Se les veneraba y eran representados en las tumbas de los faraones. Bastet, la diosa egipcia de la protección, estaba asociada con los gatos.</p>
+                </div>
+                <div class="history-item">
+                    <h3>La expansión de los gatos por el mundo</h3>
+                    <p>Los gatos fueron llevados a otros lugares por exploradores, comerciantes y colonizadores. Gracias a su capacidad para adaptarse a diferentes climas y hábitats, los gatos se convirtieron en compañeros comunes en muchas culturas alrededor del mundo.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contacto" >
             <h2>Comparte tu Curiosidad</h2>
             <form action="https://example.com/submit" method="POST">
                 <label for="nombre">Tu Nombre:</label>
